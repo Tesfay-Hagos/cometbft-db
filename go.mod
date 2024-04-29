@@ -6,11 +6,15 @@ require (
 	github.com/cockroachdb/pebble v1.1.0
 	github.com/dgraph-io/badger/v4 v4.2.0
 	github.com/google/btree v1.1.2
-	github.com/jmhodges/levigo v1.0.0
 	github.com/linxGnu/grocksdb v1.8.14
 	github.com/stretchr/testify v1.9.0
 	github.com/syndtr/goleveldb v1.0.1-0.20200815110645-5c35d600f0ca
-	go.etcd.io/bbolt v1.4.0-alpha.0.0.20240404170359-43604f3112c5
+)
+
+require (
+	github.com/jackc/pgpassfile v1.0.0 // indirect
+	github.com/jackc/pgservicefile v0.0.0-20221227161230-091c0ba34f0a // indirect
+	golang.org/x/crypto v0.17.0 // indirect
 )
 
 require (
@@ -32,6 +36,7 @@ require (
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/flatbuffers v1.12.1 // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
+	github.com/jackc/pgx/v5 v5.5.5
 	github.com/klauspost/compress v1.15.15 // indirect
 	github.com/kr/pretty v0.3.1 // indirect
 	github.com/kr/text v0.2.0 // indirect
@@ -46,6 +51,7 @@ require (
 	go.opencensus.io v0.22.5 // indirect
 	golang.org/x/exp v0.0.0-20230626212559-97b1e661b5df // indirect
 	golang.org/x/net v0.18.0 // indirect
+	golang.org/x/sync v0.6.0 // indirect
 	golang.org/x/sys v0.18.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect

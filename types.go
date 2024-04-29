@@ -11,6 +11,8 @@ var (
 
 	// errValueNil is returned when attempting to set a nil value.
 	errValueNil = errors.New("value cannot be nil")
+	// ErrNotFound is returned when a key is not found.
+	ErrWriteSyncNotSupported = errors.New("write sync not supported")
 )
 
 // DB is the main interface for all database backends. DBs are concurrency-safe. Callers must call

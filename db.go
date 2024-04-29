@@ -31,6 +31,11 @@ const (
 	//   - EXPERIMENTAL
 	//   - use pebbledb build tag (go build -tags pebbledb)
 	PebbleDBBackend BackendType = "pebbledb"
+	// ...
+	// PostgresDBBackend represents PostgreSQL (uses github.com/lib/pq)
+	//   - EXPERIMENTAL
+	//   - use postgresdb build tag (go build -tags postgresdb)
+	PostgresDBBackend BackendType = "postgresdb"
 )
 
 type dbCreator func(name string, dir string) (DB, error)
